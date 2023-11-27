@@ -1,0 +1,12 @@
+#!/bin/bash
+path="/usr/share/application-template/application-template.py"
+echo "Starting Application Template..."
+echo "Path: $path"
+echo "Dev: $1"
+echo "----------------------"
+
+if [ $1 == "--dev" ]; then
+    python $path --webEngineArgs --remote-debugging-port=3030
+else
+    python $path
+fi
