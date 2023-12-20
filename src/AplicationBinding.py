@@ -27,3 +27,10 @@ class ApplicationBinding(QObject):
   @pyqtSlot()
   def minimize(self):
     self.window.showMinimized()
+  
+  @pyqtSlot()
+  def toggleMaximize(self):
+    if self.window.isMaximized():
+      self.window.showNormal()
+    else:
+      self.window.showMaximized()
