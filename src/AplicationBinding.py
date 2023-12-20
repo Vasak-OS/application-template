@@ -23,3 +23,7 @@ class ApplicationBinding(QObject):
   @pyqtSlot()
   def exit(self):
     self.app.exit()
+
+  @pyqtSlot()
+  def minimize(self):
+    self.window.showMinimized()
