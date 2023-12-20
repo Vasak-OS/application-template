@@ -2,9 +2,10 @@ import os
 from PyQt6.QtCore import pyqtSlot, QObject
 
 class ApplicationBinding(QObject):
-  def __init__(self, window):
+  def __init__(self, window, app):
     super().__init__()
     self.window = window
+    self.app = app
 
   @pyqtSlot(result=str)
   def getHome(self):
@@ -18,3 +19,7 @@ class ApplicationBinding(QObject):
   @pyqtSlot()
   def startMove(self):
     self.window.windowHandle().startSystemMove()
+
+  @pyqtSlot()
+  def exit(self):
+    self.app.exit()
