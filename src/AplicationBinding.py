@@ -14,3 +14,7 @@ class ApplicationBinding(QObject):
         home_path = os.path.join("/", home_path)
 
       return home_path
+  
+  @pyqtSlot()
+  def startMove(self):
+    self.window.windowHandle().startSystemMove()
