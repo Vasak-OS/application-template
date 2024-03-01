@@ -63,3 +63,7 @@ class ApplicationBinding(QObject):
       self.window.showNormal()
     else:
       self.window.showMaximized()
+  
+  @pyqtSlot()
+  def loadUIConfig(self):
+    self.window.load_ui_config()
