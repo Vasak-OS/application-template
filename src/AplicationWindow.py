@@ -28,10 +28,10 @@ class AplicationWindow(VSKWindow):
         radius = self.configManager.get('STYLE', 'radius')
         color = self.configManager.get('STYLE', 'color')
 
-        self.webview.page().runJavaScript(f'document.body.style.setProperty("--system-rounded", "{radius}px")')
-        self.webview.page().runJavaScript(f'document.body.style.setProperty("--system-accent-color", "{color}")')
+        self.send_Javascript(f'document.body.style.setProperty("--system-rounded", "{radius}px")')
+        self.send_Javascript(f'document.body.style.setProperty("--system-accent-color", "{color}")')
         if darkMode == 'true':
-            self.webview.page().runJavaScript('document.body.classList.add("dark")')
+            self.send_Javascript('document.body.classList.add("dark")')
         else:
-            self.webview.page().runJavaScript('document.body.classList.remove("dark")')
+            self.send_Javascript('document.body.classList.remove("dark")')
     
