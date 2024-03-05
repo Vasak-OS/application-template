@@ -398,10 +398,10 @@
   resolved "https://registry.yarnpkg.com/@ungap/structured-clone/-/structured-clone-1.2.0.tgz#756641adb587851b5ccb3e095daf27ae581c8406"
   integrity sha512-zuVdFrMJiuCDQUMCzQaD6KL28MjnqqN8XnAqiEq9PNm/hCPTSGfrXCOfwj1ow4LFb/tNymJPwsNbVePc1xFqrQ==
 
-"@vasakgroup/vue-libvasak@^0.0.2":
-  version "0.0.2"
-  resolved "https://registry.yarnpkg.com/@vasakgroup/vue-libvasak/-/vue-libvasak-0.0.2.tgz#cc86c92742a387d03c81f53c9af3649cfd079b5a"
-  integrity sha512-SkETZWyP2SKS/J5nFM3F1UNLBXQ8xAlbV4IZei4pQFxgSP/jGu/fbU5eePwVUrend0MoJ9WGJlXnIraAsp81rw==
+"@vasakgroup/vue-libvasak@^0.0.3":
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/@vasakgroup/vue-libvasak/-/vue-libvasak-0.0.3.tgz#0338fa8e643a2291ba2af3f84f8825a81ff5f1df"
+  integrity sha512-HVp/zNFufOeLUPbKATCWEyb08jK3fIsb/pZbnaQa2KHKBbVcJS8Z0RPE4ytoS1VTQ1Jjt1Oj//el5CEPWzw2MQ==
   dependencies:
     vue "^3.3.13"
     vue-router "^4.2.5"
