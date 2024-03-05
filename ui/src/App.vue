@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { inject, onMounted } from 'vue';
+import { WindowFrame } from '@vasakgroup/vue-libvasak';
 import HelloWorld from './components/HelloWorld.vue';
-import TheWelcome from './components/TheWelcome.vue';
 
 const $vsk: any = inject('vsk');
 
@@ -11,15 +11,9 @@ onMounted(() => {
 </script>
 
 <template>
-  <header>
-    <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" />
-
-    <div class="wrapper">
-      <HelloWorld msg="You did it!" />
+  <WindowFrame title="Application Template" image="https://os.vasak.net.ar/img/logo.svg">
+    <div class="flex">
+      <HelloWorld />
     </div>
-  </header>
-
-  <main>
-    <TheWelcome />
-  </main>
+  </WindowFrame>
 </template>
