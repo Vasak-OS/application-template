@@ -6,7 +6,6 @@ This is a template for a simple application for VSK Apps. It is based on the Pyt
 
 Application template depends on the following packages:
 
-* [Bootstrap](https://getbootstrap.com/) ([libvasak-bootstrap](https://github.com/Vasak-OS/PKGBUILDS/blob/main/libvasak-bootstrap/PKGBUILD))
 * [libvasak-ui](https://github.com/Vasak-OS/PKGBUILDS/blob/main/libvasak-ui/PKGBUILD)
 * [hydriam-data](https://github.com/Vasak-OS/PKGBUILDS/blob/main/hydriam-data/PKGBUILD)
 * [python-libvasak](https://github.com/Vasak-OS/PKGBUILDS/blob/main/python-libvasak/PKGBUILD)
@@ -55,7 +54,6 @@ pkgdesc="PKGBUILD template for VSK Apps"
 url="https://github.com/Vasak-OS/$pkgname/"
 depends=(
     'python-libvasak'
-    'libvasak-bootstrap'
     'libvasak-ui'
 )
 makedepends=(
