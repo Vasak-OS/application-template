@@ -14,11 +14,9 @@
   "dependencies": {
     "@vasakgroup/vue-libvasak": "^0.0.3",
     "pinia": "^2.1.7",
-    "vue": "^3.4.27",
-    "vue-i18n": "^9.13.1"
+    "vue": "^3.4.27"
   },
   "devDependencies": {
-    "@intlify/unplugin-vue-i18n": "^4.0.0",
     "@rushstack/eslint-patch": "^1.10.3",
     "@tsconfig/node18": "^18.2.4",
     "@types/node": "^20.12.12",
