@@ -1,7 +1,7 @@
 import os
-from Vasak.VSKWindow import VSKWindow
-from Vasak.system.VSKConfigManager import VSKConfigManager
-from src.ApplicationBinding import ApplicationBinding
+from Vasak.vsk_window import VSKWindow
+from Vasak.system.vsk_config_manager import VSKConfigManager
+from src.application_binding import ApplicationBinding
 from PyQt6.QtWidgets import QApplication
 from PyQt6.QtCore import Qt, QFileSystemWatcher
 
