@@ -1,7 +1,7 @@
 import os
 import sys
 import signal
-from src.ApplicationWindow import ApplicationWindow
+from src.application_window import ApplicationWindow
 from PyQt6.QtCore import QFileSystemWatcher
 from PyQt6.QtWidgets import QApplication
 
